@@ -24,6 +24,8 @@ and number of occupants in the house with SGD regressor.
 Developed by:  SURIYA M
 RegisterNumber: 212223110055
 */
+print("Name : SURIYA M")
+print("Register Number : 212223110055")
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
@@ -65,6 +67,7 @@ y_test=scaler_y.inverse_transform(y_test)
 mse=mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)
 print("\nPredictions:\n",y_pred[:5])
+print()
 print("Name:  SURIYA M")
 print("Reg No: 212223110055")
 ```
@@ -72,11 +75,11 @@ print("Reg No: 212223110055")
 ## Output:
 
 ### Head of the Dataset
-![Screenshot 2025-03-10 155353](https://github.com/user-attachments/assets/cc9cc1a6-dc68-4bb4-b67f-27eaed1a18fe)
-![image](https://github.com/user-attachments/assets/143d1a31-3f03-441d-92f9-2f4178ee6bc8)
+![image](https://github.com/user-attachments/assets/3a991192-83ed-43cc-aca6-f4e0966db5ab)
+
 
 ### Mean Squared Error and Predicted Values
-![image](https://github.com/user-attachments/assets/a07dfda4-8dd7-4808-b644-20930e786a06)
+![image](https://github.com/user-attachments/assets/513ab4d2-2935-433c-9026-49596f31b71c)
 
 ## Result:
 
